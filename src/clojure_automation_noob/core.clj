@@ -1,11 +1,16 @@
 (ns clojure-automation-noob.core
   (:gen-class))
 
-(defn -main
-  "I don't do a whole lot ... yet."
-  [& args]
-  (println "Hello, World!"))
+(defn -main[]
+	(println "Welcome to Chapter 3 Assignment"))
 
-(defn practice []
-      (def name "sushanth")
-      (str "asdsadsadsad" name))
+(defn exercise_2 [num]
+	;Taking single numeric value 
+	(print (str "Number after increment" ":" (+ num 100))))
+	
+(defn exercise_1 []
+	(println "Delineation  and Concatenation of String")
+	
+	(def test_string "We are learning Clojure")
+	(println (str "Welcome" "! "test_string))
+	)
